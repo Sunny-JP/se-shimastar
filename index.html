@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>SHIMASTAR</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="stylesheet" href="style.css?ver=20250310">
+  <script>
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register('service-worker.js')
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kosugi&family=Poppins:ital,wght@0,400;1,700&display=swap"
+    rel="stylesheet">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0G2T8DNB8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-B0G2T8DNB8');
+  </script>
+</head>
+
+<body>
+  <!--
+  <div id="notificationBar" class="notification-bar">
+    <span><b>【お知らせ】サイトのURLが変わりました。</b><br>
+      新URL：<a class="external"
+        href="https://www.sunsun.earth/univ/shimastar/">https://www.sunsun.earth/univ/shimastar/</a><br>
+      旧サイトからの自動リダイレクト期限：2024/07/31<br>
+      各自でブックマーク等の更新をお願いします。</span><br>
+    <label>
+      <input type="checkbox" id="dontShowAgain">
+      今後このメッセージを表示しない
+    </label>
+    <button onclick="closeNotification()">閉じる</button>
+  </div>
+  -->
+
+  <div class="bg_pattern Paper_v2"></div>
+  <div class="container">
+    <h1 class="title">SHIMASTAR</h1>
+    <h2 class="subtitle">島根大学生向け非公式ポータルアプリ</h2>
+    <div class="small">Campus Squareへの接続は，学内ネットorVPNに接続</div>
+    <div class="button-group-divider"></div>
+    <div class="button-group">
+      <h2>- 大学HP -</h2>
+      <div class="buttons">
+        <a href="https://gkm2019-web1.shimane-u.ac.jp/" class="button" target="_blank"
+          rel="noopener noreferrer">Campus<br>Square</a>
+        <a href="https://moodle.cerd.shimane-u.ac.jp/moodle_2025/login/index.php" class="button" target="_blank"
+          rel="noopener noreferrer">moodle<br>2025</a>
+        <a href="https://www.shimane-u.ac.jp/education/school_info/lectures_data/" class="button" target="_blank"
+          rel="noopener noreferrer">シラバス</a>
+        <a href="https://www.shimane-u.ac.jp/education/school_info/class_data/" class="button" target="_blank"
+          rel="noopener noreferrer">授業配当表</a>
+        <a href="https://www.shimane-u.ac.jp/education/school_info/notice/" class="button" target="_blank"
+          rel="noopener noreferrer">授業関連</a>
+        <a href="https://www.shimane-u.ac.jp/education/academic_calender/calender/" class="button" target="_blank"
+          rel="noopener noreferrer">学年暦</a>
+        <a href="https://www.shimane-u.ac.jp/procedure/procedure/" class="button" target="_blank"
+          rel="noopener noreferrer">諸手続き</a>
+        <a href="https://www.shimane-u.ac.jp/campus-life/extra_curricular/extra_curri_facility/" class="button"
+          target="_blank" rel="noopener noreferrer">課外活動<br>施設予約</a>
+        <a href="https://www.shimane-u.ac.jp/education/school_info/no_lectures/" class="button" target="_blank"
+          rel="noopener noreferrer">休講情報</a>
+        <a href="https://www.g-ipc.shimane-u.ac.jp/" class="button" target="_blank"
+          rel="noopener noreferrer">総合情報<br>処理ｾﾝﾀｰ</a>
+        <a href="https://www.lib.shimane-u.ac.jp/" class="button" target="_blank" rel="noopener noreferrer">附属図書館</a>
+        <a href="https://www.shimane-u.ac.jp/nyushi/" class="button" target="_blank" rel="noopener noreferrer">入試情報</a>
+      </div>
+    </div>
+    <div class="button-group">
+      <h2>- 生協 -</h2>
+      <div class="buttons">
+        <a href="https://www.shimadai.coop/" class="button" target="_blank" rel="noopener noreferrer">生協トップ</a>
+        <a href="https://vsign.jp/shimane/maruco" class="button" target="_blank"
+          rel="noopener noreferrer">ショップ<br>営業時間</a>
+        <a href="https://vsign.jp/shimane/maruco/mypage" class="button" target="_blank"
+          rel="noopener noreferrer">マイページ</a>
+        <a href="https://vsign.jp/shimane/cnuser" class="button" target="_blank" rel="noopener noreferrer">Money<br>&
+          Wallet</a>
+      </div>
+    </div>
+    <div class="button-group-divider"></div>
+    <div class="block_trigger">
+      [ Update History ]
+      <div class="block">
+        <div class="update-contents">
+          <span>
+            25/03/10 サイトURLの変更<br>
+            25/03/10 moodleを2025年版に更新<br>
+            25/02/16 更新履歴表示の改善<br>
+            25/01/26 サイト構造のリニューアルとPWA化の完了<br>
+            25/01/26 copyrightを修正<br>
+            24/04/15 シラバス・教室配当表のリンクを追加<br>
+            24/03/29 初版公開
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="small">&copy; 2024-2025 <a href="https://x.com/1zmn_" target="_blank"
+        rel="noopener noreferrer">いずもん</a>.</div>
+  </div>
+</body>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (!localStorage.getItem('dontShowNotification')) {
+      document.getElementById('notificationBar').style.display = 'block';
+    } else {
+      document.getElementById('notificationBar').style.display = 'none';
+      document.getElementById('contentFrame').style.top = '0';
+      document.getElementById('contentFrame').style.height = '100%';
+    }
+  });
+
+  function closeNotification() {
+    if (document.getElementById('dontShowAgain').checked) {
+      localStorage.setItem('dontShowNotification', 'true');
+    }
+    document.getElementById('notificationBar').style.display = 'none';
+    document.getElementById('contentFrame').style.top = '0';
+    document.getElementById('contentFrame').style.height = '100%';
+  }
+</script>
+
+</html>
